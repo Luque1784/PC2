@@ -1,4 +1,10 @@
 LastFM::Application.routes.draw do
+  resources :tracks
+
+  resources :albums
+
+  resources :artists
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
