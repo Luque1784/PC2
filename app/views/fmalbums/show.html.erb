@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @fmalbum.name %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%= @fmalbum.artist %>
+</p>
+
+
+<%= link_to 'Edit', edit_fmalbum_path(@fmalbum) %> |
+<%= link_to 'Back', fmalbums_path %>

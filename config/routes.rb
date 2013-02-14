@@ -1,4 +1,6 @@
 LastFM::Application.routes.draw do
+  resources :fmalbums
+
   resources :tracks
 
   resources :albums
